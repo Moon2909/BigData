@@ -25,6 +25,8 @@ Through the financial API, we obtained 21,972 rows of data with 6 columns, provi
 ### 2.2. Preprocessing data
 Furthermore, to address the issue of missing data points, we employed two prominent data imputation methods, namely the **Linear Interpolation** and **Effective Dynamic Time Warping Based Imputation** techniques, as referenced in the scholarly work titled [**"An Empirical Study of Imputation Methods for Univariate Time Series"**](https://www.researchgate.net/publication/351095422_An_Empirical_Study_of_Imputation_Methods_for_Univariate_Time_Series_SO_SANH_MOT_SO_PHUONG_PHAP_XU_LY_DU_LIEU_THIEU_CHO_CHUOI_DU_LIEU_THOI_GIAN_MOT_CHIEU). These methods were skillfully applied to the collected Apple stock price dataset, which exhibited varying degrees of missing values on different dates.
 
+![ResultPreprocessing](https://github.com/Moon2909/BigData/blob/ResultPreprocessing.png)
+
 Based on the imputation results mentioned in Table 1, Linear Interpolation yielded more favorable outcomes than the eDTWBI method across various levels of missing data. Consequently, this method closely approximates reality and proves to be more effective in reconstructing real-time temporal data for the Apple stock price dataset. Building upon this foundation, we have made the decision to employ the Linear Interpolation method for filling in the missing data points in the minute-level stock price dataset. Following the data preprocessing, we obtained a dataset with 24,000 samples and 6 features. 
 
 ### 2.3. Labeling data
