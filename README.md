@@ -15,7 +15,7 @@ To tackle this challenge, our research introduces a real-time anomaly detection 
 1. **Offline**: In this component, we develop and train an anomaly detection model using historical data with labeled anomalies. This offline model serves as the foundation for identifying abnormal patterns and establishing the basis for anomaly detection.
 2. **Online**: The second component involves the implementation of a real-time anomaly detection system. This system is designed to continuously process incoming data in real time, making it capable of detecting anomalies as they occur in livestock time series data. (Observe Fig.1)
 
-![PipelineOnline](https://github.com/Moon2909/Bigdata/blob/main/PipelineOnline.png)
+![PipelineOnline](https://github.com/Moon2909/Bigdata/blob/main/Picture/PipelineOnline.png)
 
 ## 2. Dataset
 ### 2.1. Collect Data
